@@ -17,3 +17,13 @@ The aim of the video blend module is to read all pixels of image A and image B f
 - [ ] Write a small test bench to test the module 
 - [ ] Synthesise VHDL module for Xilinx KintexK70T FPGA**(Optional)**
 - [ ] Analyse timing results**(Optional)**
+
+# Solution
+Text here
+
+#### Step 1
+- [ ] Create coe file fro Image A and Image B
+- [ ] Transfer both Images in ROM 
+- [ ] Read data from of Image A Transfer into Ram on location 120000 
+- [ ] Read data from of Image B Transfer into Ram on location 5D000
+- 
