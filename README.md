@@ -21,9 +21,14 @@ The aim of the video blend module is to read all pixels of image A and image B f
 # Solution
 Text here
 
-#### Step 1
-- [ ] Create coe file fro Image A and Image B
-- [ ] Transfer both Images in ROM 
-- [ ] Read data from of Image A Transfer into Ram on location 120000 
-- [ ] Read data from of Image B Transfer into Ram on location 5D000
-- 
+**Step 1: Set-up Image A and Image B in Rom**
+- [ ] Create coe file for Image A and Image B
+- [ ] Transfer both Images in ROM
+
+**Step 2: Transfer A and Image B into Ram into required location**
+- [ ] Read data from of Image A Transfer into Ram on location 0x00012000
+- [ ] Read data from of Image B Transfer into Ram on location 0x0005D000
+
+**Step 3: Render Image C**
+- [ ] Transfer Image A data on Ram on location 0x000A8000 Starting from (0,0) end at (319,239)
+- [ ] Transfer Image B data on Ram on location 0x000A8000 Starting from (X,X) end at (319, 239)
